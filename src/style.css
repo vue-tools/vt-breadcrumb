@@ -1,0 +1,28 @@
+.ui-breadcrumb{
+    font-size: 13px;
+    line-height:1;
+}
+.ui-breadcrumb__item {
+    color: #475669;
+    float: left;
+    cursor: default;
+}
+.ui-breadcrumb__separator{
+    margin: 0 8px;
+    color: #c0ccda;
+}
+.ui-breadcrumb__item:last-child{
+    color: #3a3d40;
+    cursor: text;
+    font-weight: 800;
+}
+.ui-breadcrumb__item:last-child .ui-breadcrumb__separator {
+    display: none;
+}
+.ui-breadcrumb__link{
+    color: #475669;
+    cursor: pointer;
+}
+.ui-breadcrumb__link:hover{
+    color: #4db3ff;
+}
