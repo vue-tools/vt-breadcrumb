@@ -85,24 +85,4 @@ describe('vt-breadcrumb', () => {
         }).$mount()
         vm.link()
     })
-
-    // location cause that the travis page reload, use istanbul ignore it
-    /*
-    it('breadcrumb item no router', () => {
-        let Ctor = Vue.extend(Item)
-        let vm = new Ctor({
-            propsData: {
-                replace: true,
-                to: {
-                    path: 'https://github.com/search',
-                    query: {
-                        q: 'vue-tools'
-                    },
-                    hash: '#hello'
-                }
-            }
-        }).$mount()
-        vm.link()
-    })
-    */
 })
